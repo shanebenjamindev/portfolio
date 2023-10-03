@@ -1,0 +1,12 @@
+#section__Intro {
+    height: 100vh;
+}
+
+.intro__Item {
+    height: 80vh;
+}
+
+.intro__Text {
+    position: relative;
+    top: 30%
+}

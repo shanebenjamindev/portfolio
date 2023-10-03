@@ -1,0 +1,17 @@
+.custom-card {
+    background-color: white;
+    border-radius: 24px;
+    padding: 8px;
+}
+
+.custom-card-content {
+    border-radius: 16px;
+}
+
+.custom-card-img {
+    border-radius: 16px;
+}
+
+.custom-card-inner {
+    border-radius: 16px;
+}

@@ -1,0 +1,24 @@
+.skills__Content i {
+    font-size: 90px;
+  }
+  
+  .skills__Content i:first-child {
+    color: #e44d26;
+  }
+  
+  .skills__Content i:nth-child(2) {
+    color: #0070ba;
+  }
+  
+  .skills__Content i:nth-child(3) {
+    color: #e5a221;
+  }
+  
+  .skills__Content i:nth-child(4) {
+    color: #ce679a;
+  }
+  
+  .skills__Content i:last-child {
+    color: #777bb3;
+  }
+  

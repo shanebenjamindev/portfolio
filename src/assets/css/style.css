@@ -1,0 +1,26 @@
+@import url(./_Variable.css);
+@import url(./_Reset.css);
+@import url(./custom-card.css);
+
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* Add this CSS to your stylesheet */
+.background {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: url('https://raw.githubusercontent.com/vpgiang0205/Portfolio.io/main/images/wallpaperflare.com_wallpaper.jpg');
+}
+
+.content {
+  position: relative;
+  background-color: transparent;
+  /* background-color: rgb(221, 222, 224); */
+  /* Set a background color for the content */
+}
