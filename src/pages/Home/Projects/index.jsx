@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
-import './projects.css'
+import './projects.css';
+import airbnbProjects from '../../../../public/images/airbnbProjects.jpeg';
+
 
 export default function Projects() {
     return (
@@ -67,7 +69,7 @@ export default function Projects() {
                         <div className="overlay"></div>
                         <img className="custom-card-img"
                             width="100%" height="300"
-                            src="../../../../public/images/airbnbProjects.jpeg" />
+                            src={airbnbProjects} />
                         <div className="custom-card-details">
                             <h4>Capstone Airbnb</h4>
                             <p>Restful API ,Auth, CRUD, LocalStorage, Reactjs (redux--toolkit, react-router-dom,...)</p>
