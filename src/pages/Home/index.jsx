@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
-import Infomations from "./Infomations";
 import Intro from "./Intro";
 import Projects from "./Projects";
 import './home.css'
 import Skills from "./Skills";
+import Expericences from "./Experiences";
 
 export default function Home() {
   const [backgroundScale, setBackgroundScale] = useState(1);
@@ -36,10 +36,12 @@ export default function Home() {
       </div>
 
       <div className="content">
+        <div>
+          <Projects />
+        </div>
         <div className="w-75 m-auto">
           <Skills />
-          <Infomations />
-          <Projects />
+          <Expericences />
         </div>
       </div>
     </div>

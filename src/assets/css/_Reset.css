@@ -37,12 +37,12 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 1;
-    background-color: red;
 }
 
 a,
-li {
+li, link, Link {
     list-style: none;
     text-decoration: none;
-    color: inherit;
+    color: inherit !important;
 }
+

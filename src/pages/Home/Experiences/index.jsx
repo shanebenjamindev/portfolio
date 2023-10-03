@@ -1,13 +1,13 @@
-export default function Infomations() {
+export default function Expericences() {
     return (
-        <section id="experience" className>
+        <section id="experience" className="py-5">
             <div>
                 <div className="common__Title">
                     <h2>EXPERIENCE</h2>
                 </div>
-                <div className="p-lg-5">
-                    <div className="exp__Content mt-5">
-                        <div className="exp__header d-flex justify-content-between">
+                <div className="">
+                    <div className="exp__Content mt-5" data-aos="fade-up" data-aos-duration="500">
+                        <div className="exp__header d-md-flex justify-content-between">
                             <h4>IMAGE PROCESSING COLLABORATOR</h4>
                             <h5>March 2022 - Present</h5>
                         </div>
@@ -20,8 +20,8 @@ export default function Infomations() {
                             Tools: akaTask.
                         </p>
                     </div>
-                    <div className="exp__Content mt-5">
-                        <div className="exp__header d-flex justify-content-between">
+                    <div className="exp__Content mt-5" data-aos="fade-up" data-aos-duration="500">
+                        <div className="exp__header d-md-flex justify-content-between">
                             <h4>INTERN BACK-END WEB DEVELOPER</h4>
                             <h5>September 2021 - December 2021</h5>
                         </div>
@@ -41,8 +41,8 @@ export default function Infomations() {
                             Techstacks: PHP, MySQL, HTML, CSS.
                         </p>
                     </div>
-                    <div className="exp__Content mt-5">
-                        <div className="exp__header d-flex justify-content-between">
+                    <div className="exp__Content mt-5" data-aos="fade-up" data-aos-duration="500">
+                        <div className="exp__header d-md-flex justify-content-between">
                             <h4>STAFF, FULLSTACK WEB DEVELOPER</h4>
                             <h5>October 2018 - March 2019</h5>
                         </div>
@@ -69,7 +69,7 @@ export default function Infomations() {
 //         </p>
 //     </div>
 //     <div>
-//         <div className="custom-card m-3 d-flex">
+//         <div className=" data-aos="up-right" data-aos-duration="500"custom-card m-3 d-md-flex">
 //             <div className="col-md-2">
 //                 <img className="custom-card-img" src="https://img.freepik.com/free-photo/professional-programmer-working-late-dark-office_1098-18705.jpg?q=10&h=200" />
 //             </div>

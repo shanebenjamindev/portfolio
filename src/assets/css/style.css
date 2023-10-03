@@ -2,13 +2,6 @@
 @import url(./_Reset.css);
 @import url(./custom-card.css);
 
-.App {
-  display: flex;
-  flex-direction: column;
-  width: 100vw;
-  height: 100vh;
-}
-
 /* Add this CSS to your stylesheet */
 .background {
   background-size: cover;

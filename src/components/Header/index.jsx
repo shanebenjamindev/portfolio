@@ -8,11 +8,11 @@ export default function Header() {
 
 function Navbar() {
     return (
-        <nav className="container bg-white rounded-lg mt-2 admin__Navbar navbar navbar-expand-lg navbar-light fixed-top">
-            <Link className="navbar-brand d-flex justify-content-center align-items-center" to="/admin/dashboard">
+        <nav className="w-75 mx-auto mt-1 bg-white rounded-lg admin__Navbar navbar navbar-expand-lg navbar-light fixed-top">
+            <Link className="navbar-brand d-flex justify-content-center align-items-center" to="/">
                 <img
                     width="30px"
-                    src="https://cdn-icons-png.flaticon.com/512/2111/2111254.png"
+                    src="https://png.pngtree.com/png-clipart/20190630/original/pngtree-vector-portfolio-icon-png-image_4171290.jpg"
                     alt=""
                 />
                 <div className="main__Title ml-2">Portfolio</div>
@@ -60,7 +60,7 @@ function Navbar() {
                     </li>
                     <li className="nav-item">
                         <button
-                            className="btn btn-danger"
+                            className="btn btn-dark"
                         >
                             Contact
                         </button>
