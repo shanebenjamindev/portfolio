@@ -9,7 +9,7 @@ export default function Home() {
   const [backgroundScale, setBackgroundScale] = useState(1);
 
   const handleScroll = () => {
-    const scale = 1 + window.scrollY * 0.006; // Adjust the factor to control the zoom speed
+    const scale = 1 + window.scrollY * 0.008; // Adjust the factor to control the zoom speed
     setBackgroundScale(scale);
   };
 

@@ -40,9 +40,19 @@ body {
 }
 
 a,
-li, link, Link {
+li,
+link,
+Link {
     list-style: none;
     text-decoration: none;
     color: inherit !important;
+    font-family: "Monolisa";
 }
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Monolisa";
+}
