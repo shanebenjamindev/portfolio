@@ -3,12 +3,12 @@
 }
 
 .projects__Content {
-    width: 95%;
     margin: auto;
     color: inherit;
 }
 
 .projects__Item {
+    margin: 10px 0;
     transition: all 0.25s ease-in-out;
     position: relative;
 }
@@ -32,7 +32,6 @@
 
 .projects__Item:hover {
     transform: scale(1.05);
-    margin: 0 30px;
 }
 
 .projects__Item:hover .overlay::before {
@@ -48,4 +47,13 @@
     opacity: 0;
     transform: translateY(10px);
     transition: all 0.5s ease;
+}
+
+.projects__Datetime {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.custom-card__ViewBtn {
+    z-index: 2;
 }
