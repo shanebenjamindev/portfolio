@@ -53,8 +53,8 @@ function Navbar() {
                     </li>
 
                     <li className="nav-item">
-                        <Link className="nav-link" to="/about">
-                            CV
+                        <Link className="nav-link" to="https://drive.usercontent.google.com/download?id=11XyCtJQH4i72DWajXF-_NddbcSXYILmj&export=download&authuser=0&confirm=t&uuid=9522124b-c534-42e1-aff0-85f4190f087e&at=APZUnTXE56OGsNmIHEMIHMAgNpsu:1697548122153">
+                            Download CV
                         </Link>
                     </li>
                     <li className="nav-item">
