@@ -1,0 +1,61 @@
+[
+  {
+    "NameCompany": "FPT SOFTWARE",
+    "Position": "Image processing collaborator (Part Time)",
+    "Time": "03/2022 – present",
+    "Projects": [
+      {
+        "Name": " Uniqlo's customer's Tag",
+        "Tech": "akaTask",
+        "Description": "Read English documents and training, add tag's name"
+      },
+    {
+        "Name": "Framing Objects",
+        "Tech": "akaTask",
+        "Description": "framing objects and people,..."
+      }
+      
+    ]
+  },
+  {
+    "NameCompany": "DH SOLUTIONS",
+    "Position": "Freelancer - Web developer",
+    "Time": "09/2021 – 12/2022",
+    "Projects": [
+      {
+        "Name": "CLOUDPOT Training site",
+        "Description": " I've crafted an immersive training site using cutting-edge technologies. The site's dynamic menu is powered by a JSON data structure, allowing for seamless updates and modifications. Leverage interactive elements to engage users and provide a delightful culinary experience.",
+        "Tech": "HTML, CSS, JavaScript, ReactJS (react-router-dom, aos)",
+        "ImageUrl": "/public/images/cloudpottrainingsite.png",
+        "Github": "https://github.com/vpgiang0205/CapstoneAirbnb",
+        "Deloy": "https://capstone-airbnb-one.vercel.app/"
+      },
+
+      {
+        "Name": "Airbnb Project",
+        "Description": "The Airbnb Project is a service designed for who want to find affordable accommodation options. Users can use a user-friendly interface to make informed choice.",
+        "Tech": "Restful API ,Auth, CRUD, LocalStorage, ReactJS (redux--toolkit, react-router-dom, aos)",
+        "ImageUrl": "/public/images/airbnbProjects.jpeg",
+        "Github": "https://github.com/vpgiang0205/CapstoneAirbnb",
+        "Deloy": "https://capstone-airbnb-one.vercel.app/"
+      },
+
+      {
+        "Name": "Restaurant",
+        "Description": "The Restaurant Project is a fully responsive website for a restaurant. It features an elegant design and a user-friendly interface, and it is optimized for mobile devices. It provides customers with an accessible and enjoyable way to explore the restaurant's offerings.",
+        "Tech": "HTML, CSS, Bootstrap, jQuery, CSS Animation, Responsive",
+        "ImageUrl": "https://react-portfolio-ochre-theta.vercel.app/static/media/1.da70e44d91c88ece61df.png",
+        "Github": "https://github.com/vpgiang0205/CapstoneProject",
+        "Deloy": "https://capstone-project-vpgiang0205.vercel.app/"
+      },
+      {
+        "Name": "SAMAR",
+        "Description": "The SAMAR Project is known for its user-friendly and visually appealing design. It incorporates smooth animations that enhance the overall user experience. While the project's specific purpose is not detailed, its design and interactivity contribute to an engaging user experience.",
+        "Tech": "HTML, CSS, Bootstrap, jQuery, CSS Animation",
+        "ImageUrl": "https://react-portfolio-ochre-theta.vercel.app/static/media/5.c90ac185a085261953af.bmp",
+        "Github": "https://github.com/vpgiang0205/SAMAR",
+        "Deloy": "https://samar-one.vercel.app/"
+      }
+    ]
+  }
+]

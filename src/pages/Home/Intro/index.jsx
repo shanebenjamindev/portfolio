@@ -1,3 +1,4 @@
+import { ContactModal } from '../../../components/Header'
 import './intro.css'
 
 export default function Intro() {
@@ -12,14 +13,12 @@ export default function Intro() {
                                 Website Designer / FrontEnd Developer
                             </h3>
                             <div className="my-5">
-                                <button className="btn btn-outline-dark rouned-lg">Hire me</button>
+                                    <ContactModal />
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
-
             <div>
                 <span>I build website, app with reactjs</span>
             </div>

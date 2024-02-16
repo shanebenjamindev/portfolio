@@ -1,0 +1,9 @@
+.experience-component {
+    transition: all 0.3s ease-in-out;
+}
+
+.experience-component:hover {
+    padding: 30px;
+    margin: 30px 0;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}

@@ -1,15 +1,14 @@
 import { useState, useEffect } from "react";
 import Intro from "./Intro";
-import Projects from "./Projects";
 import './home.css'
 import Skills from "./Skills";
 import Expericences from "./Experiences";
 
 export default function Home() {
-  const [backgroundScale, setBackgroundScale] = useState(1);
+  const [backgroundScale, setBackgroundScale] = useState(1.3);
 
   const handleScroll = () => {
-    const scale = 1 + window.scrollY * 0.008; // Adjust the factor to control the zoom speed
+    const scale = 1 + window.scrollY * 0.1;
     setBackgroundScale(scale);
   };
 
@@ -35,10 +34,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="content">
-        <div>
-          <Projects />
-        </div>
+      <div className="content ">
         <div className="w-75 m-auto">
           <Skills />
           <Expericences />

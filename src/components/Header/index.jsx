@@ -1,8 +1,8 @@
-import { Link } from "react-router-dom"
-
-import { useState } from 'react';
+import { Link } from "react-router-dom";
+import { useRef, useState } from 'react';
 import { Modal, Input, Form } from 'antd';
 import { MailOutlined } from '@ant-design/icons';
+import emailjs from 'emailjs-com'; // updated import for emailjs
 
 export default function Header() {
     return (
@@ -48,19 +48,22 @@ function Navbar() {
 
                 <ul className="navbar-nav ml-auto main__p">
                     <li className="nav-item">
-                        <Link className="nav-link d-flex flex-column align-items-center justify-content-center" >
-                        </Link>
+                        <a href="#section__Intro" className="nav-link d-flex flex-column align-items-center justify-content-center" >
+                            About
+                        </a>
                     </li>
 
                     <li className="nav-item">
-                        <Link className="nav-link" to="https://drive.usercontent.google.com/download?id=11XyCtJQH4i72DWajXF-_NddbcSXYILmj&export=download&authuser=0&confirm=t&uuid=9522124b-c534-42e1-aff0-85f4190f087e&at=APZUnTXE56OGsNmIHEMIHMAgNpsu:1697548122153">
-                            Download CV
-                        </Link>
+                        <li className="nav-item">
+                            <a href = "#section__Skills" className="nav-link">
+                                Skills
+                            </a>
+                        </li>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link" to="/certificate">
-                            Certificate
-                        </Link>
+                        <a className="nav-link" href="#section__Experience">
+                            Experiences
+                        </a>
                     </li>
                     <li className="nav-item">
                         <ContactModal />
@@ -71,19 +74,40 @@ function Navbar() {
     )
 }
 
-function ContactModal() {
+export function ContactModal() {
+    const form = useRef();
+
+    const [state, setState] = useState({
+        name: "",
+        email: "",
+        message: "",
+    });
+
+    const [submitMessage, setSubmitMessage] = useState("");
+
+    const handleChange = (e) => {
+        const { name, value } = e.target;
+        setState({ ...state, [name]: value });
+    };
     const [visible, setVisible] = useState(false);
 
+    const handleOk = (e) => {
+        e.preventDefault();
+        emailjs
+            .sendForm('service_zfrjend', 'template_q6r0u9r', form.current, 'Upxiat5EO1yLQlRQX')
+            .then(
+                (result) => {
+                    setSubmitMessage("Message sent successfully!");
+                    console.log(result.text);
+                },
+                (error) => {
+                    setSubmitMessage("Error sending message. Please try again later.");
+                    console.log(error.text);
+                }
+            );
+    };
     const showModal = () => {
         setVisible(true);
-    };
-
-    const handleOk = () => {
-        // Implement your logic to send the email here
-        // You can use libraries like nodemailer or an API for sending emails
-        // For the sake of this example, we'll just close the modal
-        alert(`thanks for choosing me but this button not work yet... please, contact me via phone 0834718218 or email vophonggiang0205@gmail.com`)
-        setVisible(false);
     };
 
     const handleCancel = () => {
@@ -93,43 +117,33 @@ function ContactModal() {
     return (
         <div>
             <button className="btn btn-dark" onClick={showModal}>
-                Contact
+               Hire me
             </button>
             <Modal
-                title="Contact"
+                title="HIRE ME"
                 open={visible}
-                onOk={handleOk}
                 onCancel={handleCancel}
-                footer={<>
-                    <button onClick={handleOk} className="btn btn-dark">send</button>
-                </>}
+                footer={null}
             >
-                <Form layout="vertical">
-                    <Form.Item
-                        label="Your email address"
-                        name="email"
-                        rules={[
-                            {
-                                required: true,
-                                message: 'Please enter your email address',
-                            },
-                        ]}
-                    >
-                        <Input prefix={<MailOutlined />} placeholder="Enter email" />
-                    </Form.Item>
-                    <Form.Item
-                        label="Message"
-                        name="message"
-                        rules={[
-                            {
-                                required: true,
-                                message: 'Please enter your message',
-                            },
-                        ]}
-                    >
-                        <Input.TextArea rows={4} placeholder="Enter your message" />
-                    </Form.Item>
-                </Form>
+                <form ref={form} onSubmit={handleOk}>
+                    <div className="form-group">
+                        <input className="form-control" name="name" data-aos="fade-right" data-aos-delay="500" type="text" onChange={handleChange} placeholder="Last Name" required/>
+                    </div>
+                    <div className="form-group">
+                        <input name="email" type="email" data-aos="fade-right" data-aos-delay="600" className="form-control" onChange={handleChange} placeholder="Email Address" required />
+                    </div>
+                    <div className="form-group">
+                        <textarea name="message" className="form-control" data-aos="fade-right" data-aos-delay="700" rows={6} onChange={handleChange} placeholder="Message" required />
+                    </div>
+
+                    <div className="text-center my-2" data-aos="fade" data-aos-delay="900">
+                        <button className="btn btn-dark px-4 py-2" type="submit">
+                            GET IN TOUCH
+                        </button>
+                    </div>
+                    {submitMessage && <p className="text-center">{submitMessage}, Thanks for choosing me</p>}
+                </form>
+
             </Modal>
         </div>
     );

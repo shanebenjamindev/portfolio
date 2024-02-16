@@ -1,3 +1,16 @@
+#section__Skills {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 0 30px;
+}
+
+.scrolled {
+  position: fixed;
+  top: 30%;
+  transform: translate(-5%, -50%);
+  z-index: 111;
+  transition: all 0.5s ease;
+}
+
 .skills__Icons {
   position: relative;
 }
@@ -12,53 +25,44 @@
 .icon-html {
   color: #e44d26;
   font-size: 90px;
-
 }
 
 .icon-css {
   color: #0070ba;
   font-size: 90px;
-
 }
 
 .icon-react {
   color: #39adfa;
   font-size: 90px;
-
 }
 
 .icon-js {
   color: #e5a221;
   font-size: 90px;
-
 }
 
 .icon-sass {
   color: #ce679a;
   font-size: 90px;
-
 }
 
 .icon-php {
   color: #777bb3;
   font-size: 90px;
-
 }
 
 .icon-bootstrap {
   color: #ae00ff;
   font-size: 90px;
-
 }
 
 .icon-github {
   color: black;
   font-size: 50px;
-
 }
 
 .icon-sourcetree {
   color: #039aff;
   font-size: 50px;
-
 }
