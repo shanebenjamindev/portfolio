@@ -26,7 +26,7 @@
         "Name": "CLOUDPOT Training site",
         "Description": " I've crafted an immersive training site using cutting-edge technologies. The site's dynamic menu is powered by a JSON data structure, allowing for seamless updates and modifications. Leverage interactive elements to engage users and provide a delightful culinary experience.",
         "Tech": "HTML, CSS, JavaScript, ReactJS (react-router-dom, aos)",
-        "ImageUrl": "/public/images/cloudpottrainingsite.png",
+        "ImageUrl": "/images/cloudpottrainingsite.png",
         "Github": "https://github.com/vpgiang0205/CapstoneAirbnb",
         "Deloy": "https://capstone-airbnb-one.vercel.app/"
       },
@@ -35,7 +35,7 @@
         "Name": "Airbnb Project",
         "Description": "The Airbnb Project is a service designed for who want to find affordable accommodation options. Users can use a user-friendly interface to make informed choice.",
         "Tech": "Restful API ,Auth, CRUD, LocalStorage, ReactJS (redux--toolkit, react-router-dom, aos)",
-        "ImageUrl": "/public/images/airbnbProjects.jpeg",
+        "ImageUrl": "/images/airbnbProjects.jpeg",
         "Github": "https://github.com/vpgiang0205/CapstoneAirbnb",
         "Deloy": "https://capstone-airbnb-one.vercel.app/"
       },
