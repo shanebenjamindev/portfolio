@@ -4,8 +4,8 @@
     "Description": " I've crafted an immersive training site using cutting-edge technologies. The site's dynamic menu is powered by a JSON data structure, allowing for seamless updates and modifications. Leverage interactive elements to engage users and provide a delightful culinary experience.",
     "Tech": "HTML, CSS, JavaScript, ReactJS (react-router-dom, aos)",
     "ImageUrl": "/public/images/cloudpottrainingsite.png",
-    "Github": "https://github.com/vpgiang0205/CapstoneAirbnb",
-    "Deloy": "https://capstone-airbnb-one.vercel.app/"
+    "Github": "https://github.com/vpgiang0205/cloudpot",
+    "Deloy": "https://cloudpot.vercel.app/"
   },
 
   {
