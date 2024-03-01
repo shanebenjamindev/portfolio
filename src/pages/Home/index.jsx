@@ -8,7 +8,7 @@ export default function Home() {
   const [backgroundScale, setBackgroundScale] = useState(1.3);
 
   const handleScroll = () => {
-    const scale = 1 + window.scrollY * 0.1;
+    const scale = 1 + window.scrollY * 0.01;
     setBackgroundScale(scale);
   };
 

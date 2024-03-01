@@ -1,27 +1,17 @@
 [
   {
-    "NameCompany": "FPT SOFTWARE",
-    "Position": "Image processing collaborator (Part Time)",
-    "Time": "03/2022 – present",
+    "NameCompany": "THANG LOI GROUP",
+    "Position": "Web Developer",
+    "Time": "12/2023 – 01/2024",
+    "Description": "Conducted code reviews and provided mentorship to junior/senior developers, fostering a culture of continuous learning and improvement",
     "Projects": [
       {
-        "Name": " Uniqlo's customer's Tag",
-        "Tech": "akaTask",
-        "Description": "Read English documents and training, add tag's name"
+        "Name": " SAIGON TOWN",
+        "Tech": "Wordpress, CSS, Figma, PHP",
+        "Deloy": "https://saigontown.vn/",
+        "Description": "SAIGON TOWN is a captivating online platform developed by THANG LOI GROUP, offering visitors an immersive journey through the vibrant culture and lifestyle of Saigon. Seamlessly blending modern design with intuitive functionality, this website serves as a digital gateway to explore the dynamic cityscape of Saigon.",
+        "ImageUrl": "/images/saigontown.png"
       },
-    {
-        "Name": "Framing Objects",
-        "Tech": "akaTask",
-        "Description": "framing objects and people,..."
-      }
-      
-    ]
-  },
-  {
-    "NameCompany": "DH SOLUTIONS",
-    "Position": "Freelancer - Web developer",
-    "Time": "09/2021 – 12/2022",
-    "Projects": [
       {
         "Name": "CLOUDPOT Training site",
         "Description": " I've crafted an immersive training site using cutting-edge technologies. The site's dynamic menu is powered by a JSON data structure, allowing for seamless updates and modifications. Leverage interactive elements to engage users and provide a delightful culinary experience.",
@@ -29,8 +19,27 @@
         "ImageUrl": "/images/cloudpottrainingsite.png",
         "Github": "https://github.com/vpgiang0205/CapstoneAirbnb",
         "Deloy": "https://capstone-airbnb-one.vercel.app/"
-      },
-
+      }
+    ]
+  },
+  {
+    "NameCompany": "DH Solution",
+    "Position": "Web Developer",
+    "Time": "12/2023 – 01/2024",
+    "Projects": [
+      {
+        "Name": "MEDICAL EQUIQMENT MANAGEMENT",
+        "Tech": "JS, PHP, MySQL, HTML, CSS, MVC, CRUD",
+        "videoUrl": "https://drive.google.com/file/d/1yaPycGW_Um6qy8PbYZm-OAbML8kcsbf9/view?usp=sharing",
+        "Description": "Conducted code reviews and provided mentorship to junior/senior developers, fostering a culture of continuous learning and improvement",
+        "Github": "https://github.com/vpgiang0205/QuanLythietbiYte"
+      }
+    ]
+  },
+  {
+    "NameCompany": "Personal Projects",
+    "Position": "Front End Developer",
+    "Projects": [
       {
         "Name": "Airbnb Project",
         "Description": "The Airbnb Project is a service designed for who want to find affordable accommodation options. Users can use a user-friendly interface to make informed choice.",

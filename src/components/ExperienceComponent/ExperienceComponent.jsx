@@ -9,28 +9,32 @@ export default function ExperienceComponent({ experience }) {
     };
 
     return (
-        <div className='experience-component' style={{ display: 'flex', gap: '30px', justifyContent: 'space-between', position: 'relative' }}>
+        <div className='experience-component my-5 d-md-flex' style={{ gap: '30px', justifyContent: 'space-between', position: 'relative' }}>
             <div style={{ flex: 1 }}>
                 <div>
                     <h4>{experience.NameCompany}</h4>
-                    <span><strong>Position:</strong> {experience.Position}</span>
+                    <p><strong>Position:</strong> {experience.Position}</p>
+
+                    {experience.Description ?
+                        <p><strong>Responsibilities:</strong> {experience.Description}</p>
+                        : null}
+
                 </div>
                 <div className='my-2 position-relative'>
                     {experience.Projects[selectedProjectIndex].ImageUrl && (
                         <img height={"300px"} width={"100%"} src={experience.Projects[selectedProjectIndex].ImageUrl} alt={experience.Projects[selectedProjectIndex].Name} />
                     )}
-                    <div className='d-md-flex' style={{ gap: '10px', right: '10%', bottom: '-10px', position: 'absolute' }}>
-                        {experience.Projects[selectedProjectIndex].Github && (
-                            <Link to={experience.Projects[selectedProjectIndex].Github}>
-                                <button className='btn btn-dark'>GitHub</button>
-                            </Link>
-                        )}
-                        {experience.Projects[selectedProjectIndex].Deloy && (
-                            <Link to={experience.Projects[selectedProjectIndex].Deloy}>
-                                <button className='btn btn-dark'>Deployment</button>
-                            </Link>
-                        )}
-                    </div>
+
+                    {experience.Projects[selectedProjectIndex].Deloy && (
+                        <Link to={experience.Projects[selectedProjectIndex].Deloy}>
+                            <div className='custom-overlay'>
+                                <span>
+                                    Go to site
+                                </span>
+                            </div>
+                        </Link>
+                    )}
+
                 </div>
             </div>
             <div style={{ flex: 1 }}>
@@ -54,11 +58,32 @@ export default function ExperienceComponent({ experience }) {
                         </button>
                     ))}
                 </div>
-                <div className='d-flex py-5 my-3 align-items-center'>
-                    <div>
-                        <p><strong>Description:</strong> {experience.Projects[selectedProjectIndex].Description}</p>
+                <hr />
+
+                <div className='py-5 my-3 align-items-center'>
+                        {experience.Projects[selectedProjectIndex].Description && (
+                            <p><strong>Description:</strong> {experience.Projects[selectedProjectIndex].Description}</p>
+                        )}
                         <p><strong>Technologies:</strong> {experience.Projects[selectedProjectIndex].Tech}</p>
-                    </div>
+
+                        {experience.Projects[selectedProjectIndex].Github && (
+                            <p>
+                                <strong>Github: </strong>
+                                <Link to={experience.Projects[selectedProjectIndex].Github}>
+                                    <button className='btn btn-outline-dark'>GitHub</button>
+                                </Link>
+                            </p>
+                        )}
+                        {experience.Projects[selectedProjectIndex].videoUrl && (
+                            <p>
+                                <strong>Video: </strong>
+                                <Link to={experience.Projects[selectedProjectIndex].videoUrl}>
+                                    <button className='btn btn-outline-dark'> Demo</button>
+                                </Link>
+                            </p>
+                        )}
+
+
                 </div>
             </div>
         </div>

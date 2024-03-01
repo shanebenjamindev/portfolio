@@ -1,9 +1,42 @@
 .experience-component {
-    transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .experience-component:hover {
-    padding: 30px;
-    margin: 30px 0;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  padding: 30px;
+  margin: 30px 0;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.custom-overlay {
+  background-color: black;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  transition: all 0.5s ease;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.custom-overlay > span {
+  position: relative;
+}
+.custom-overlay > span::after {
+  content: "";
+  width: 100%;
+  border-radius: 14px;
+  border: 1px solid white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.custom-overlay:hover {
+  opacity: 60%;
 }
