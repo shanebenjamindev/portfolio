@@ -1,14 +1,14 @@
 import { useState, useEffect } from "react";
 import Intro from "./Intro";
-import './home.css'
+import "./home.css";
 import Skills from "./Skills";
 import Expericences from "./Experiences";
 
 export default function Home() {
-  const [backgroundScale, setBackgroundScale] = useState(1.3);
+  const [backgroundScale, setBackgroundScale] = useState("");
 
   const handleScroll = () => {
-    const scale = 1 + window.scrollY * 0.01;
+    const scale = 1 + window.scrollY * 0.005;
     setBackgroundScale(scale);
   };
 
@@ -29,9 +29,7 @@ export default function Home() {
           transformOrigin: "center",
         }}
       >
-        <div className="w-50 m-auto">
-          <Intro />
-        </div>
+        <Intro />
       </div>
 
       <div className="content ">
