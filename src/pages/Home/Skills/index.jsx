@@ -1,3 +1,4 @@
+import DownloadCV from "../../../components/DownloadCV";
 import { ContactModal } from "../../../components/Header";
 import "./skills.css";
 import {
@@ -33,6 +34,7 @@ export default function Skills() {
             <p>Full name: Vo Phong Giang</p>
             <p>Phone: 0834718218</p>
             <p>Email: vophonggiang0205@gmail.com</p>
+            <hr />
             <h3>PROGRAMMING LANGUAGES:</h3>
             <div className="skills__Icons d-md-flex mb-4">
               <div className="">
@@ -69,14 +71,27 @@ export default function Skills() {
                 </div>
               </div>
             </div>
+            <div>
+              <h3>Others:</h3>
+              <p>Responsive design, UI/UX design</p>
+              <p>
+                Effective communication, Teamwork Problem solving, Attention to
+                Detail Design pattern
+              </p>
+              <p>styled-components ,clean code, OOP</p>
+            </div>
+            <hr />
+
             <div className="d-md-flex align-items-center">
               <div>
                 <h3>CERTIFICATES:</h3>
                 <p>TOEIC 740</p>
-                <p>Cybersoft FrontEnd Developer 8.4</p>
+                <p>Cybersoft FrontEnd Developer</p>
               </div>
-              <div className="ml-5">
+
+              <div className="ml-auto d-flex" style={{ gap: "10px" }}>
                 <ContactModal />
+                <DownloadCV />
               </div>
             </div>
           </div>

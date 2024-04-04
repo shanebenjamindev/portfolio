@@ -1,3 +1,13 @@
 :root {
+    --primary-color: black;
+    --secondary-color: white;
+    
+    --light-color: white;
+
+    --hover-primary-bg: white;
+    --hover-secondary-bg: black;
+    --hover-primary-color: black;
+    --hover-secondary-color: white;
+
     --primary-bg-color: #E0E2E3;
 }

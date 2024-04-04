@@ -133,7 +133,7 @@ export function ContactModal() {
 
   return (
     <div>
-      <button className="btn btn-dark header__Btn-Hire" onClick={showModal}>
+      <button className="btn__Primary" onClick={showModal}>
         <span>Hire me</span>
       </button>
       <Modal

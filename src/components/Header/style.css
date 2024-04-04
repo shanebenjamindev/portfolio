@@ -9,8 +9,3 @@
     opacity: 0;
     padding: 0 30px;
 }
-
-.header__Btn-Hire:hover .header__Btn-Login {
-    margin-left: 20px;
-    opacity: 1;
-}

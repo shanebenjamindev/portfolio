@@ -1,3 +1,32 @@
 @import url(./_Variable.css);
 @import url(./_Reset.css);
 @import url(./custom-card.css);
+
+.btn__Primary {
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    padding: 10px 20px;
+    transition: all 0.25s;
+    border-radius: 4px;
+}
+
+.btn__Primary:hover {
+    background-color: var(--hover-primary-bg);
+    color: var(--hover-primary-color);
+    box-shadow: black 0px 17px 29px 0px;
+    transform: translate(5px, -5px);
+}
+
+.btn__Primary-outline {
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    padding: 5px 20px;
+    transition: all 0.25s;
+    border-radius: 4px;
+}
+
+
+.btn__Primary-outline:hover {
+    background-color: var(--hover-secondary-bg);
+    color: var(--hover-secondary-color);
+}

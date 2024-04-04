@@ -101,7 +101,7 @@ export default function ExperienceComponent({ experience }) {
             <p>
               <strong>Github: </strong>
               <Link to={experience.Projects[selectedProjectIndex].Github}>
-                <button className="btn btn-outline-dark">GitHub</button>
+                <button className="btn__Primary-outline">GitHub</button>
               </Link>
             </p>
           )}
@@ -110,7 +110,7 @@ export default function ExperienceComponent({ experience }) {
             <p>
               <strong>URL: </strong>
               <Link to={experience.Projects[selectedProjectIndex].Deloy}>
-                <button className="btn btn-outline-dark">Go to site</button>
+                <button className="btn__Primary-outline">Go to site</button>
               </Link>
             </p>
           )}
@@ -119,7 +119,7 @@ export default function ExperienceComponent({ experience }) {
             <p>
               <strong>Video: </strong>
               <Link to={experience.Projects[selectedProjectIndex].videoUrl}>
-                <button className="btn btn-outline-dark"> Demo</button>
+                <button className="btn__Primary-outline"> Demo</button>
               </Link>
             </p>
           )}

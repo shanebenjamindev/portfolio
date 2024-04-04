@@ -1,3 +1,4 @@
+import DownloadCV from "../../../components/DownloadCV";
 import { ContactModal } from "../../../components/Header";
 import "./intro.css";
 
@@ -16,8 +17,9 @@ export default function Intro() {
               contribute effectively to your team, I am eager to continue my
               professional growth journey within your esteemed organization.
             </p>
-            <div className="mt-2">
+            <div className="mt-2 d-flex" style={{gap: "10px"}}>
               <ContactModal />
+              <DownloadCV />
             </div>
           </div>
         </div>

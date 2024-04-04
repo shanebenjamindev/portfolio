@@ -1,12 +1,4 @@
-.experience-component {
-  transition: all 0.3s ease-in-out;
-  background-color: rgba(202, 202, 202, 0.1);
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-}
 
-.experience-component:hover {
-  box-shadow: black 0px 12px 12px;
-}
 
 .custom-overlay {
   background-color: black;

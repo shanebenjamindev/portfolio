@@ -3,7 +3,7 @@
     "NameCompany": "THANG LOI GROUP",
     "Position": "Web Developer",
     "Time": "12/2023 – 01/2024",
-    "Description": "Conducted code reviews and provided mentorship to junior/senior developers, fostering a culture of continuous learning and improvement",
+    "Description": "English Communication, Plan and develop module, Q/A with testers, Grow other skills (MERN Stack), Managing projects with npm, yarn",
     "Projects": [
       {
         "Name": " SAIGON TOWN",
@@ -26,6 +26,7 @@
     "NameCompany": "DH Solution",
     "Position": "Web Developer",
     "Time": "12/2023 – 01/2024",
+    "Description":"English Communication, Plan and develop module, base UI, consultant with clients, Q/A with testers",
     "Projects": [
       {
         "Name": "MEDICAL EQUIQMENT MANAGEMENT",
@@ -40,6 +41,14 @@
     "NameCompany": "OTHER PROJECTS",
     "Position": "Front End Developer",
     "Projects": [
+      {
+        "Name": "Infotel Dashboard",
+        "Description": "Develop a web-app with login, routing and responsive, Line chart that let the user choses the forecast period corresponding to the table in the excel, nested table with a button to download the excel file",
+        "ImageUrl": "/images/infotel.png",
+        "Tech": "ReactJS (d3js, redux--toolkit, react-router-dom,...), Typescript, HTML, CSS, Bootstrap",
+        "Github": "https://github.com/shanebenjamindev/infotel-react-ts",
+        "Deloy": "https://infotel-react-ts.vercel.app/"
+      },
       {
         "Name": "CLOUDPOT Training site",
         "Description": " I've crafted an immersive training site using cutting-edge technologies. The site's dynamic menu is powered by a JSON data structure, allowing for seamless updates and modifications. Leverage interactive elements to engage users and provide a delightful culinary experience.",
@@ -73,7 +82,7 @@
       },
       {
         "Name": "The Diamond City",
-        "Description": " Contribution: Design, Develop User Interface, Implement Api, fully responsive, CRUD, Admin Page",
+        "Description": "Design, Develop User Interface, Implement Api, fully responsive, CRUD, Admin Page",
         "ImageUrl": "/images/thediamoncity.png",
         "Github": "https://github.com/shanebenjamindev/thediamondcity_bookingsite",
         "Deloy": "https://diamondcity-site.vercel.app/"
