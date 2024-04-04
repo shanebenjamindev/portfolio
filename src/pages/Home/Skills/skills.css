@@ -1,14 +1,7 @@
 #section__Skills {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   padding: 0 30px;
-}
-
-.scrolled {
-  position: fixed;
-  top: 30%;
-  transform: translate(-5%, -50%);
-  z-index: 111;
-  transition: all 0.5s ease;
+  z-index: 2;
 }
 
 .skills__Icons {
@@ -35,6 +28,11 @@
 .icon-react {
   color: #39adfa;
   font-size: 90px;
+}
+
+.icon-nodejs{
+  color: rgb(3, 185, 3);
+  font-size: 60px;
 }
 
 .icon-js {

@@ -10,7 +10,7 @@ export default function Header() {
 
 function Navbar() {
   return (
-    <nav className="px-5 bg-white fixed-top">
+    <nav className="px-3 bg-white fixed-top">
       <div className="navbar navbar-expand-lg navbar-light">
         <Link
           className="navbar-brand d-flex justify-content-center align-items-center"
@@ -60,15 +60,24 @@ function Navbar() {
             </li>
 
             <li className="nav-item">
-              <a href="#section__Skills" className="nav-link">
-                Skills
+              <a
+                href="#section__Info"
+                className="nav-link d-flex flex-column align-items-center justify-content-center"
+              >
+               Skills
               </a>
             </li>
+
             <li className="nav-item">
               <a className="nav-link" href="#section__Experience">
                 Experiences
               </a>
             </li>
+            {/* <li className="nav-item"> */}
+            {/* <Link to="/adm" className="nav-link" href="#section__Experience">
+                Login
+              </Link> */}
+            {/* </li> */}
           </ul>
         </div>
         <ContactModal />

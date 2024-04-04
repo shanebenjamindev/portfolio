@@ -24,6 +24,9 @@ const routes = [
             }
         ]
     },
+    {
+        path: "adm",
+    }
 
 ]
 

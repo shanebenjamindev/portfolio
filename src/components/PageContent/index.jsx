@@ -3,8 +3,6 @@ import './pageContent.css';
 
 export default function PageContent() {
     return (
-        <>
             <Outlet />
-        </>
     )
 }

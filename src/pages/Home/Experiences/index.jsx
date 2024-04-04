@@ -9,10 +9,10 @@ export default function Experiences() {
     };
 
     return (
-        <section id="section__Experience" className="py-5">
+        <section id="section__Experience" className="w-75 m-auto py-5">
             <div>
                 <div className="common__Title">
-                    <h2>EXPERIENCE</h2>
+                    <h2>EXPERIENCE & PROJECTS</h2>
                 </div>
                 <div className="exp__Content mt-5" data-aos="fade-up" data-aos-duration="500">
                     {renderExp()}
