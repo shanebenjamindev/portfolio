@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function DownloadCV() {
   return (
-    <Link to="https://drive.usercontent.google.com/download?id=1Xb4E1wxkq2zeEZaxBCPA4uwuRutjxIky&export=download&authuser=1&confirm=t&uuid=8e4226c3-5106-479b-a363-865ddcfbec04&at=APZUnTUg5OxxIkaHlpuMS17xt3b8:1712224487486">
+    <Link to="https://drive.usercontent.google.com/download?id=10z7WvEllwd1tfmkpndcjnsPeaF0iL83M&export=download&authuser=1&confirm=t&uuid=069751fc-38e8-4f05-a8c3-0d39bbc37919&at=APZUnTX1QCEJmTgusHtdt-ME162g:1712300348330">
       <button className="btn__Primary">Download CV</button>
     </Link>
   );
