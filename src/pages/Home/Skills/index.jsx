@@ -1,5 +1,4 @@
 import DownloadCV from "../../../components/DownloadCV";
-import { ContactModal } from "../../../components/Header";
 import "./skills.css";
 import {
   FaReact,
@@ -21,7 +20,7 @@ export default function Skills() {
           data-aos="fade-left"
           className="col-md-5 d-flex justify-content-center"
         >
-          <img src="/images/avatar.jpg" height={"500px"} />
+          <img src="/images/avatar.jpg" height={"600px"} />
         </div>
         <div className="d-md-flex col-md-7">
           <div
@@ -90,7 +89,6 @@ export default function Skills() {
               </div>
 
               <div className="ml-auto d-flex" style={{ gap: "10px" }}>
-                <ContactModal />
                 <DownloadCV />
               </div>
             </div>

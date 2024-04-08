@@ -14,14 +14,6 @@ const routes = [
                 path: "about",
                 element: lazy(() => import('../pages/About'))
             },
-            {
-                path: "thanks",
-                element: lazy(() => import('../pages/Thanks'))
-            },
-            {
-                path: "certificate",
-                element: lazy(() => import('../pages/Certificate'))
-            }
         ]
     },
     {
