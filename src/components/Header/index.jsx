@@ -64,7 +64,7 @@ function Navbar() {
                 href="#section__Info"
                 className="nav-link d-flex flex-column align-items-center justify-content-center"
               >
-               Skills
+                Skills
               </a>
             </li>
 
@@ -132,10 +132,11 @@ export function ContactModal() {
   };
 
   return (
-    <div>
-      <button className="btn__Primary" onClick={showModal}>
+    <div className="bg-dark w-100 justify-content-center">
+      <button className=" btn__Primary" onClick={showModal}>
         <span>Hire me</span>
       </button>
+
       <Modal
         title="HIRE ME"
         open={visible}
